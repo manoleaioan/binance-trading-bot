@@ -1,9 +1,5 @@
 const server = require('http').createServer();
 
-const io = require('socket.io')(server, {
-  transport: ['websocket', 'polling']
-});
-
 const userServer = (bot, port) =>{
   io.on('connection', client => {
     bot.setSocketClient(client);

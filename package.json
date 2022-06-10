@@ -18,8 +18,7 @@
     "dotenv": "^10.0.0",
     "pkg": "^5.5.2",
     "playwright": "^1.17.1",
-    "qs": "^6.10.2",
-    "socket.io": "^4.4.1"
+    "qs": "^6.10.2"
   },
   "pkg": {
     "assets": "config.json",
