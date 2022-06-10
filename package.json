@@ -1,0 +1,30 @@
+{
+  "name": "cryptoLog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg tradebot.js --targets node16-win-x64",
+    "build2": "pkg tradebot.js --targets node16-win-x64"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "pkg": "^5.5.2",
+    "playwright": "^1.17.1",
+    "qs": "^6.10.2",
+    "socket.io": "^4.4.1"
+  },
+  "pkg": {
+    "assets": "config.json",
+    "targets": [
+      "node16-win-x64"
+    ]
+  }
+}

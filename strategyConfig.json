@@ -1,0 +1,15 @@
+{
+  "symbol": "BNBBTC",
+  "spotType": "market",
+  "price": "market",
+  "side": "sell",
+  "buyOffset": 0,
+  "sellOffset": 0.05,
+  "stopLoss": -0.05,
+  "buyQty": 0.02,
+  "sellQty": 0.02,
+  "repeat": 1,
+  "discordNotifications": true,
+  "timeInForce": "GTC",
+  "test": false
+}
